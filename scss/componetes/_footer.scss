@@ -1,0 +1,23 @@
+.footer_color{
+    background-color: $bg-primary ;
+    .titule{
+        color: $bg-terciary;
+        font-size: nth($size,3);
+        margin: 0 15px;
+    }
+    .subtitulo{
+        color: $bg-terciary;
+        font-size: nth($size,4);
+        margin: 0 15px;
+    }
+    a{
+        color: $bg-terciary;
+        text-decoration: none;
+        font-size: nth($size,6);
+        margin: 0 15px;
+    }
+}
+.copy_h3{
+    text-align: center;
+    margin: 5px;
+}

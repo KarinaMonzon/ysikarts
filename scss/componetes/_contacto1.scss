@@ -1,0 +1,31 @@
+   .conctato_contendor{
+        background-color: $bg-secundary;
+        @include flexblox3;
+        border: 10px;
+        margin-top: 10px;   
+    }
+    .img_conctato{
+        height: 300px;
+        border-radius: 10px;
+        border: 1px solid $bg-acento;
+        margin: 20px;
+        width: 80%;
+    }
+    .imprecionar_quienes{
+        @include flexblox3;
+        color: $bg-acento;
+        font-size: nth($size,1);
+    }
+    .cta_btn_1{
+        @include boton;
+        &:hover{
+            color: $bg-terciary;
+            width: 180px;
+            transition: 3s;
+        }  
+    }
+
+
+
+
+

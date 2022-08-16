@@ -1,0 +1,30 @@
+.quienes_somos{
+    background-color: $bg-secundary;
+    .titule_yks{
+        text-align: center;
+        color: $bg-acento;
+        padding: 10px;
+    }
+    .parrafo{
+        font-size: nth($size,2);
+        text-align: center;
+        margin: 20px;
+    }
+    .ysi_img{
+        @include foto;
+        object-fit: cover;
+        object-position: 90% 20%;
+    }
+    .parrafo_1{
+        font-size: nth($size,2);
+        margin: 10px;
+
+    }
+    .img_envio{
+        @include foto;
+    }
+}
+
+
+
+

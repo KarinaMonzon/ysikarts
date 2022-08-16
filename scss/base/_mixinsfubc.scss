@@ -1,0 +1,43 @@
+@mixin flexblox {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+@mixin flexblox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin flexblox3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+    
+
+@mixin boton {
+    background-color: $bg-acento;
+    color: $bg-terciary;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 6px 40px;
+}
+
+@mixin icono_arrow {
+    border: none;
+    color: $bg-acento;
+    background-color: $bg-secundary;
+    position: fixed;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+@mixin foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 30px;
+}
