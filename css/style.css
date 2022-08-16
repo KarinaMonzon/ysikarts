@@ -75,11 +75,12 @@ body {
   position: fixed;
   border-radius: 100%;
   transition: 1s;
+  border: 1px solid #521262;
+  width: 70px;
+  height: 70px;
   right: 150px;
   bottom: 200px;
   font-size: 40px;
-  width: 70px;
-  height: 70px;
 }
 
 @media screen and (max-width: 768px) {
@@ -101,18 +102,18 @@ body {
 .footer_color .titule {
   color: #fafafa;
   font-size: 25px;
-  margin: 0 15px;
 }
 .footer_color .subtitulo {
   color: #fafafa;
   font-size: 30px;
-  margin: 0 15px;
 }
 .footer_color a {
   color: #fafafa;
   text-decoration: none;
   font-size: 40px;
-  margin: 0 15px;
+}
+.footer_color .icon_intagran {
+  margin: 15px;
 }
 
 .copy_h3 {
@@ -143,7 +144,7 @@ body {
 }
 .quienes_somos .parrafo_1 {
   font-size: 22px;
-  margin: 10px;
+  margin-left: 30px;
 }
 .quienes_somos .img_envio {
   width: 250px;

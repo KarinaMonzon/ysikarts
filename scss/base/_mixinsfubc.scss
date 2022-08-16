@@ -33,6 +33,7 @@
     position: fixed;
     border-radius: 100%;
     transition: 1s;
+    border: 1px solid $bg-acento;
 }
 
 @mixin foto {
