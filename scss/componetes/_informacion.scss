@@ -14,10 +14,11 @@
         @include foto;
         object-fit: cover;
         object-position: 90% 20%;
+        
     }
     .parrafo_1{
         font-size: nth($size,2);
-        margin-left: 30px
+        margin-left: 40px
 
     }
     .img_envio{

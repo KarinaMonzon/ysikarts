@@ -1,10 +1,11 @@
+
 .nav_color{
     background-color: $bg-primary;
     .nav_color_links{
-        color:$bg-terciary;
-        font-size: nth($size,1);
-        &:hover{
-            color: $bg-secundary;
+         color:$bg-terciary;
+         font-size: nth($size,1);
+         &:hover{
+         color: $bg-secundary;
         }
     }
     a{

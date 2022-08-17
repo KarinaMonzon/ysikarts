@@ -1,4 +1,8 @@
 .formulario_1{
     @include flexblox3;
     font-size: nth($size,2);
+    .quienes_somos{
+        box-shadow: 1px 2px 10px #000;
+    }
+   
  }

@@ -1,4 +1,8 @@
 .carrusel_posicion{
-    width: 70%;
     @include flexblox;
+    .carrusel_posicion_1{
+        width: 70%;
+        margin-top: 20px;
+    } 
+
 }
