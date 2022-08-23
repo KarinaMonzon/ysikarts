@@ -24,6 +24,7 @@
     border-radius: 20px;
     margin: 10px;
     padding: 6px 40px;
+    transition: all 2s;
 }
 
 @mixin botonuno {
@@ -45,8 +46,8 @@
 }
 
 @mixin foto {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    margin: 30px;
+    margin: 20px;
 }

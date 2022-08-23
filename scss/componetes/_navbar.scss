@@ -3,7 +3,8 @@
     background-color: $bg-primary;
     .nav_color_links{
          color:$bg-terciary;
-         font-size: nth($size,1);
+         font-size: nth($size,2);
+
          &:hover{
          color: $bg-secundary;
         }

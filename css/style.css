@@ -12,7 +12,7 @@ body {
 }
 .nav_color .nav_color_links {
   color: #fafafa;
-  font-size: 20px;
+  font-size: 22px;
 }
 .nav_color .nav_color_links:hover {
   color: #6fe7dd;
@@ -70,6 +70,7 @@ body {
   border-radius: 20px;
   margin: 10px;
   padding: 6px 40px;
+  transition: all 2s;
 }
 .cta_btn_1:hover {
   color: #fafafa;
@@ -178,10 +179,10 @@ body {
   padding: 10px;
 }
 .quienes_somos .ysi_img {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
-  margin: 30px;
+  margin: 20px;
   object-fit: cover;
   object-position: 90% 20%;
 }
@@ -190,10 +191,10 @@ body {
   margin: 40px;
 }
 .quienes_somos .img_envio {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
-  margin: 30px;
+  margin: 20px;
 }
 
 .title {
@@ -220,6 +221,9 @@ body {
   object-fit: cover;
   object-position: 40% 35%;
 }
+.galeria_foto imghover {
+  transition: 2s;
+}
 .galeria_foto .title_card {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
@@ -231,6 +235,7 @@ body {
   border-radius: 20px;
   margin: 10px;
   padding: 6px 40px;
+  transition: all 2s;
 }
 .galeria_foto .cta_btn:hover {
   color: #fafafa;

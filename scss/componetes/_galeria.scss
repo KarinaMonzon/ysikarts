@@ -18,6 +18,9 @@
         border-radius: 10px 10px 0 0;
         object-fit: cover;
         object-position: 40% 35%;
+        &hover{
+            transition: 2s;
+        }
         
        
     }

@@ -13,20 +13,16 @@
         font-size: nth($size,2);
         text-align: center;
         margin: 40px;
-        padding: 10px;
-        
+        padding: 10px;   
     }
     .ysi_img{
         @include foto;
         object-fit: cover;
-        object-position: 90% 20%;
-        
+        object-position: 90% 20%;   
     }
     .parrafo_1{
         font-size: nth($size,2);
-        margin: 40px
-        
-
+        margin: 40px;
     }
     .img_envio{
         @include foto;
