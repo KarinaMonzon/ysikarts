@@ -2,7 +2,7 @@
     background-color: $bg-primary ;
     .titule{
         color: $bg-terciary;
-        font-size: nth($size,3);
+        font-size: nth($size,4);
     
     }
     .subtitulo{
@@ -20,7 +20,19 @@
     }
 }
 
+@media screen and (max-width: 510px){
+    .div{
+        font-size: nth($size,7);
+    }
+  
+}
+
 .copy_h3{
     text-align: center;
     margin: 5px;
+}
+@media screen and (max-width: 510px){
+    .copy_h3{
+        font-size: nth($size,1);
+    }
 }
