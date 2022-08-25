@@ -27,8 +27,13 @@ body {
   justify-content: center;
 }
 .carrusel_posicion .carrusel_posicion_1 {
-  width: 70%;
+  width: 80%;
   margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .carrusel_posicion .carrusel_posicion_1 {
+    width: 100%;
+  }
 }
 
 .conctato_contenedor {
@@ -176,16 +181,12 @@ body {
 .quienes_somos .titule_yks {
   text-align: center;
   color: #521262;
-  padding-top: 30px;
-}
-.quienes_somos .titule_yks_1 {
-  text-align: center;
-  color: #521262;
+  padding-top: 20px;
 }
 .quienes_somos .parrafo {
   font-size: 22px;
   text-align: center;
-  margin: 40px;
+  margin: 30px;
   padding: 10px;
 }
 .quienes_somos .ysi_img {
@@ -207,6 +208,13 @@ body {
 .parrafo_1 {
   font-size: 22px;
   margin: 40px;
+  font-weight: 800;
+}
+
+.parrafo_2 {
+  font-size: 22px;
+  margin: 40px;
+  font-weight: 100;
 }
 
 .img_envio {

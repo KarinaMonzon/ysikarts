@@ -3,16 +3,13 @@
     .titule_yks{
         text-align: center;
         color: $bg-acento;
-        padding-top: 30px;
+        padding-top: 20px;
     }
-    .titule_yks_1{
-        text-align: center;
-        color: $bg-acento
-    }
+
     .parrafo{
         font-size: nth($size,2);
         text-align: center;
-        margin: 40px;
+        margin: 30px;
         padding: 10px;   
     }
     .ysi_img{
@@ -30,7 +27,15 @@
 .parrafo_1{
     font-size: nth($size,2);
     margin: 40px;
+    font-weight: 800;
 }
+.parrafo_2{
+    font-size: nth($size,2);
+    margin: 40px;
+    font-weight: 100;  
+}
+    
+
 .img_envio{
     @include foto; 
 }
