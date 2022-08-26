@@ -9,21 +9,21 @@
 .formulario_1{
     @include flexblox3;
     font-size: nth($size,1);
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     .quienes_somos{
         box-shadow: 1px 2px 10px #000;
     }
     .formulario{
-        padding: 10px;
-        font-size: nth($size,2);
+        padding: 5px;
+        font-size: nth($size,1);
     }
     .cta_btn_2{
         @include botonuno;
         font-size: nth($size,2);
+        transition: all 1s;
         &:hover{
             color: $bg-terciary;
-            width: 240px;
-            transition: 1s;
+            transform: scale(1.1); 
         }  
     }
    

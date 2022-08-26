@@ -23,10 +23,10 @@
     }
     .cta_btn_1{
         @include boton;
+        transition: all 1s;
         &:hover{
             color: $bg-terciary;
-            width: 180px;
-            transition: 3s;
+            transform: scale(1.1); 
         }  
     }
 

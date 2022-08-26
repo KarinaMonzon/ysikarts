@@ -17,12 +17,7 @@
         height: 450px;
         border-radius: 10px 10px 0 0;
         object-fit: cover;
-        object-position: 40% 35%;
-        &hover{
-            transition: 2s;
-        }
-        
-       
+        object-position: 40% 35%;  
     }
     .title_card{
         font-size: nth($size,1);
@@ -31,10 +26,11 @@
     }
     .cta_btn{
         @include boton;
+        transition: all 1s;
         &:hover{
             color: $bg-terciary;
-            width: 180px;
-            transition: 1s;   
+            transform: scale(1.1);   
+
         }
     }
 }
